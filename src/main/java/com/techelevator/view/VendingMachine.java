@@ -85,7 +85,7 @@ public class VendingMachine {
         String salesLog = dateFormat.format(date) + " GIVE CHANGE: $"+ moneyProvided + " $0.00";
         return salesLog;
     }
-    //    Total sales report
+    //    Total sales reports
     public String totalSalesReport() {
         String displaySalesReport = "";
         LinkedHashMap<String, List<Product>> trayMap = inventory.getTrayMap();
